@@ -1,4 +1,64 @@
-<h1 style="text-align: center;">
-    Resturants
-    </h1>
-    
+    <body>
+
+        <div class="container-fluid" style="background-color:#00F3FF">
+            <div class="row">
+
+                <div class="col">
+            
+                </div>
+            
+                <div class="col-6">
+                    <div class="jumbotron" style="background-color:#00F3FF">
+                        <h1 style="text-align:center;">Resturants!</h1>
+                        <p style="text-align:center;">Try these amazing Local Seattle Resturants!</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container" style="padding-top: 10px;display: center;">
+            <form class="form" action="/action_page.php">
+                <div class="form-group">
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" class="form-control" id="zip">
+                </div>
+                <div class="form-group">
+                    <label for="miles">Miles:</label>
+                    <input type="text" class="form-control" id="miles">
+                </div>
+                <label for="sel1">Select price (select one):</label>
+                <select class="form-control" id="sel1">
+                    <option>$ ($10)</option>
+                    <option>$$ ($20)</option>
+                    <option>$$$ ($50)</option>
+                    <option>$$$$ ($100)</option>
+                </select>
+                <label for="sel2">Cusine (hold ctrl to select more than one):</label>
+                <select multiple class="form-control" id="sel2">
+                    <option>Any</option>
+                    <option>American</option>
+                    
+                  <option>Bulgarian</option>
+                  <option>Chinese</option>
+                  
+                  <option>Ethiopian</option>
+                  <option>French</option>
+                  <option>Indian</option>
+                  
+                  <option>Italian</option>
+                  <option>Japanese</option>
+                  <option>Mexican</option>
+                  
+                </select>
+                <div class="checkbox">
+                        <label><input type="checkbox"> Vegan</label>
+                    </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </body>
